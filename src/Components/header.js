@@ -4,7 +4,8 @@ export default class Header extends Component {
   render() {
     return (
 <div>
-  Header
+  <h1>DESTINY</h1>
+  <h2>PVE Tracker</h2>
 </div>
     );
   }
