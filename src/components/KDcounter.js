@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 
 export default class KDcounter extends Component {
 
@@ -24,3 +24,9 @@ export default class KDcounter extends Component {
     );
   }
 }
+ */
+
+ export const getKD = function() {
+   return fetch('http://www.bungie.net/d1/Platform/Destiny/2/Account/4611686018429275110/Summary/')
+   .then(res => res.json())
+ }
