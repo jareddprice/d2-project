@@ -4,6 +4,12 @@ import Header from './components/Header.js'
 import KDcounter from './components/KD-counter.js'
 
 class App extends Component {
+
+    constructor() {
+      super();
+      this.state = {};
+    }
+    
   render() {
     return (
       <div>
